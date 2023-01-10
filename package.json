@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "xo && ava",
-    "build": "swift build --configuration=release --arch x86_64 && mv .build/apple/Products/Release/file-icon .",
+    "build": "swift build --configuration=release --arch arm64 --arch x86_64 && mv .build/apple/Products/Release/file-icon .",
     "prepare": "npm run build"
   },
   "files": [
